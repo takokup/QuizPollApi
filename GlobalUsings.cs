@@ -1,0 +1,11 @@
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.Extensions.Options;
+global using Npgsql;
+global using QuizPollApi.Common;
+global using QuizPollApi.Common.CQRS;
+global using QuizPollApi.Contracts;
+global using QuizPollApi.Domain;
+global using QuizPollApi.Infrastructure.Persistence;
+global using QuizPollApi.Infrastructure.Services;
+global using QuizPollApi.Features.Questions;
+global using QuizPollApi.Features.Shared;
